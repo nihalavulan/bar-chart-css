@@ -1,0 +1,29 @@
+.bar-chart-wrapper{
+    max-width: 688px;
+    width: 100%;
+    padding: 10px;
+}
+.number-line-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.number-lines{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.number-lines hr{
+    width: 100%;
+    border: 1px solid #A7B3E2;
+}
+
+.number-percantages{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-line-percentage-alignment{
+    gap: 80px;
+}
