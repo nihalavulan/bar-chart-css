@@ -19,7 +19,7 @@
 .number-lines hr{
     width: 100%;
     border: 1px solid #A7B3E2;
-}
+} 
 
 .number-percantages{
     display: flex;
@@ -80,4 +80,41 @@ bottom: -40px;
 
 .number-line-percentage-alignment{
     display: flex;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 548px) {
+    .number-line-percentage-alignment{
+        transform: rotate(90deg);
+    }
+    .bar-chart-wrapper{
+        max-width: 305px;
+        width: 100%;
+        margin-left: 55px;
+    }
+    .number-lines-line-wrapper{
+        gap: 50px;
+    }
+    .raisec-bar{
+        max-width: 40px;
+    }
+    .line-and-number-container p{
+        transform: rotate(-90deg);
+        font-size: 14px;
+    }
+    .raisec-bar p {
+        bottom: -60px;
+        transform: rotate(-90deg);
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .number-lines-line-wrapper{
+        gap: 25px;
+    }
+    .raisec-bar{
+        max-width: 30px;
+    }
 }
