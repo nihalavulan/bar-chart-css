@@ -1,44 +1,47 @@
-.bar-chart-wrapper{
+.bar-chart-wrapper {
     max-width: 688px;
     width: 100%;
     padding: 10px;
 }
-.number-line-container{
+
+.number-line-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
 }
-.number-lines{
+
+.number-lines {
     width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.number-lines hr{
+.number-lines hr {
     width: 100%;
     border: 1px solid #A7B3E2;
-} 
+}
 
-.number-percantages{
+.number-percantages {
     display: flex;
     flex-direction: column;
 }
 
 
-.number-lines-line-wrapper{
+.number-lines-line-wrapper {
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-.raisec-names-wrapper{
+.raisec-names-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.raisec-bars-wrapper{
+
+.raisec-bars-wrapper {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -49,60 +52,67 @@
     padding-right: 10px;
     height: 100%;
 }
-.raisec-bar{
+
+.raisec-bar {
     width: 100%;
     max-width: 80px;
     background-color: #485796;
     max-height: 392px;
-    border-radius: 12px 12px 0 0 ; 
+    border-radius: 12px 12px 0 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
 
-.raisec-bar p{
-position: absolute;
-bottom: -40px;
+.raisec-bar p {
+    position: absolute;
+    bottom: -40px;
 }
 
-.line-and-number-container{
+.line-and-number-container {
     display: flex;
     align-items: center;
     position: relative;
     width: 100%;
 }
-.line-and-number-container p{
+
+.line-and-number-container p {
     position: absolute;
     z-index: 99;
     right: -30px;
 }
 
-.number-line-percentage-alignment{
+.number-line-percentage-alignment {
     display: flex;
 }
 
 
 /* Responsive */
 @media only screen and (max-width: 548px) {
-    .number-line-percentage-alignment{
+    .number-line-percentage-alignment {
         transform: rotate(90deg);
     }
-    .bar-chart-wrapper{
+
+    .bar-chart-wrapper {
         max-width: 305px;
         width: 100%;
         margin-left: 55px;
     }
-    .number-lines-line-wrapper{
+
+    .number-lines-line-wrapper {
         gap: 50px;
     }
-    .raisec-bar{
+
+    .raisec-bar {
         max-width: 40px;
     }
-    .line-and-number-container p{
+
+    .line-and-number-container p {
         transform: rotate(-90deg);
         font-size: 14px;
     }
+
     .raisec-bar p {
         bottom: -60px;
         transform: rotate(-90deg);
@@ -111,10 +121,11 @@ bottom: -40px;
 }
 
 @media only screen and (max-width: 410px) {
-    .number-lines-line-wrapper{
+    .number-lines-line-wrapper {
         gap: 25px;
     }
-    .raisec-bar{
+
+    .raisec-bar {
         max-width: 30px;
     }
 }
