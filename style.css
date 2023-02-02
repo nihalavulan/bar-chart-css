@@ -47,6 +47,7 @@
     left: 0;
     right: 0;
     padding-right: 10px;
+    height: 100%;
 }
 .raisec-bar{
     width: 100%;
@@ -75,4 +76,8 @@ bottom: -40px;
     position: absolute;
     z-index: 99;
     right: -30px;
+}
+
+.number-line-percentage-alignment{
+    display: flex;
 }
