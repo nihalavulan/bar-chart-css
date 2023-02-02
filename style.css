@@ -3,9 +3,6 @@
     width: 100%;
     padding: 10px;
 }
-.number-line-wrapper{
-    
-}
 .number-line-container{
     display: flex;
     flex-direction: row;
@@ -36,10 +33,6 @@
     gap: 80px;
 }
 
-.raisec-names-container{
-
-}
-
 .raisec-names-wrapper{
     display: flex;
     align-items: center;
@@ -53,12 +46,13 @@
     bottom: 9px;
     left: 0;
     right: 0;
+    padding-right: 10px;
 }
 .raisec-bar{
     width: 100%;
     max-width: 80px;
     background-color: #485796;
-    max-height: 100%;
+    max-height: 392px;
     border-radius: 12px 12px 0 0 ; 
     display: flex;
     justify-content: center;
